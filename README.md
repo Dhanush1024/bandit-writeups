@@ -1,16 +1,10 @@
 # OverTheWire Bandit Write-ups
 
-![Cybersecurity](https://img.shields.io/badge/Focus-Cybersecurity-blue)
-![Platform](https://img.shields.io/badge/Platform-OverTheWire-orange)
-![Levels](https://img.shields.io/badge/Levels-0--15-green)
-
 ## Introduction
 
 This repository contains my personal write-ups and learning notes from the **OverTheWire Bandit Wargame**.
 
-I completed **Bandit Levels 0 to 15** as part of my cybersecurity learning journey. The challenges helped me develop practical knowledge of Linux command-line operations, SSH, file handling, permissions, text processing, encoding, compression, networking, and basic security concepts.
-
-The purpose of this repository is to document the commands I used, understand why they worked, and record what I learned from each challenge.
+I am using Bandit to improve my practical cybersecurity knowledge through hands-on challenges. These write-ups document my approach, the steps I followed, and the concepts I learned from each level.
 
 ---
 
@@ -18,45 +12,114 @@ The purpose of this repository is to document the commands I used, understand wh
 
 **Bandit** is a beginner-friendly cybersecurity wargame provided by **OverTheWire**.
 
-The game is designed to help beginners learn and practice Linux and cybersecurity concepts through practical challenges.
-
-Each level requires finding a password or completing a task that allows access to the next level.
+The challenges are designed to help beginners develop practical skills in Linux, system administration, networking, and cybersecurity through hands-on problem solving.
 
 ---
 
-## Levels Completed
+## Levels
 
-| Level | Topic / Concept | Write-up |
-|---|---|---|
-| Level 0 | SSH connection | [View Write-up](Level-00/README.md) |
-| Level 1 | Special filename | [View Write-up](Level-01/README.md) |
-| Level 2 | Spaces in filenames | [View Write-up](Level-02/README.md) |
-| Level 3 | Hidden files | [View Write-up](Level-03/README.md) |
-| Level 4 | Human-readable files | [View Write-up](Level-04/README.md) |
-| Level 5 | Finding files | [View Write-up](Level-05/README.md) |
-| Level 6 | File ownership and permissions | [View Write-up](Level-06/README.md) |
-| Level 7 | Searching text | [View Write-up](Level-07/README.md) |
-| Level 8 | Unique lines | [View Write-up](Level-08/README.md) |
-| Level 9 | Extracting readable strings | [View Write-up](Level-09/README.md) |
-| Level 10 | Base64 decoding | [View Write-up](Level-10/README.md) |
-| Level 11 | ROT13 | [View Write-up](Level-11/README.md) |
-| Level 12 | Hexdump and compression | [View Write-up](Level-12/README.md) |
-| Level 13 | SSH private key | [View Write-up](Level-13/README.md) |
-| Level 14 | Network communication | [View Write-up](Level-14/README.md) |
-| Level 15 | SSL/TLS connection | [View Write-up](Level-15/README.md) |
+| Level | Write-up |
+|---|---|
+| Level 0 | [View Write-up](Level-00/README.md) |
+| Level 1 | [View Write-up](Level-01/README.md) |
+| Level 2 | [View Write-up](Level-02/README.md) |
+| Level 3 | [View Write-up](Level-03/README.md) |
+| Level 4 | [View Write-up](Level-04/README.md) |
+| Level 5 | [View Write-up](Level-05/README.md) |
+| Level 6 | [View Write-up](Level-06/README.md) |
+| Level 7 | [View Write-up](Level-07/README.md) |
+| Level 8 | [View Write-up](Level-08/README.md) |
+| Level 9 | [View Write-up](Level-09/README.md) |
+| Level 10 | [View Write-up](Level-10/README.md) |
+| Level 11 | [View Write-up](Level-11/README.md) |
+| Level 12 | [View Write-up](Level-12/README.md) |
+| Level 13 | [View Write-up](Level-13/README.md) |
+| Level 14 | [View Write-up](Level-14/README.md) |
+| Level 15 | [View Write-up](Level-15/README.md) |
 
 ---
 
-## Linux Commands Practiced
+## What I Learned
 
-During the challenges, I worked with several Linux commands and utilities.
+Through the Bandit challenges, I gained practical experience in:
 
-### File and Directory Commands
+- Working with remote Linux systems
+- Understanding SSH connections
+- Navigating and working with files
+- Understanding file permissions and ownership
+- Searching and analyzing files
+- Working with encoded data
+- Handling compressed files
+- Understanding SSH authentication
+- Basic network communication
+- Problem-solving using the command line
 
-```bash
-ls
-cd
-cat
-file
-du
-pwd
+---
+
+## My Approach
+
+For each level, I document:
+
+- **Objective** – What the challenge requires
+- **Approach** – How I analyzed the problem
+- **Commands Used** – Commands used to solve the challenge
+- **Explanation** – What each command does
+- **Screenshot** – Evidence of the completed challenge
+- **What I Learned** – The main concept I understood from the level
+
+---
+
+## Repository Structure
+
+```text
+bandit-writeups/
+│
+├── README.md
+│
+├── Level-00/
+│   └── README.md
+│
+├── Level-01/
+│   └── README.md
+│
+├── Level-02/
+│   └── README.md
+│
+├── Level-03/
+│   └── README.md
+│
+├── Level-04/
+│   └── README.md
+│
+├── Level-05/
+│   └── README.md
+│
+├── Level-06/
+│   └── README.md
+│
+├── Level-07/
+│   └── README.md
+│
+├── Level-08/
+│   └── README.md
+│
+├── Level-09/
+│   └── README.md
+│
+├── Level-10/
+│   └── README.md
+│
+├── Level-11/
+│   └── README.md
+│
+├── Level-12/
+│   └── README.md
+│
+├── Level-13/
+│   └── README.md
+│
+├── Level-14/
+│   └── README.md
+│
+└── Level-15/
+    └── README.md
