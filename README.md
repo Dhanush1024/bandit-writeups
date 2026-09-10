@@ -47,16 +47,26 @@ Each level requires finding a password or completing a task that allows access t
 
 ---
 
-## Linux Commands Practiced
+## 📊 Progress
 
-During the challenges, I worked with several Linux commands and utilities.
+**16 / 34 Levels Completed** 🎯
 
-### File and Directory Commands
+```text
+████████████████░░░░░░░░░░░░░░░░░░ 47%
+```
+## 🏆 Milestones
 
-```bash
-ls
-cd
-cat
-file
-du
-pwd
+* 🟢 **Levels 1–5** — Completed
+* 🟢 **Levels 6–10** — Completed
+* 🟢 **Levels 11–15** — Completed
+* 🟢 **Level 16** — Completed
+* ⚪ **Levels 17–20** — Upcoming
+* ⚪ **Levels 21–25** — Upcoming
+* ⚪ **Levels 26–30** — Upcoming
+* ⚪ **Levels 31–34** — Final Mission
+
+
+## 🎯 Goal
+
+Complete all **OverTheWire Bandit** levels and document the commands, techniques, and cybersecurity concepts learned throughout the journey.
+
